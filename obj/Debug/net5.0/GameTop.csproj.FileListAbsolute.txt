@@ -1,0 +1,16 @@
+C:\Rep\consolecore\GameTop\bin\Debug\net5.0\GameTop.exe
+C:\Rep\consolecore\GameTop\bin\Debug\net5.0\GameTop.deps.json
+C:\Rep\consolecore\GameTop\bin\Debug\net5.0\GameTop.runtimeconfig.json
+C:\Rep\consolecore\GameTop\bin\Debug\net5.0\GameTop.runtimeconfig.dev.json
+C:\Rep\consolecore\GameTop\bin\Debug\net5.0\GameTop.dll
+C:\Rep\consolecore\GameTop\bin\Debug\net5.0\ref\GameTop.dll
+C:\Rep\consolecore\GameTop\bin\Debug\net5.0\GameTop.pdb
+C:\Rep\consolecore\GameTop\obj\Debug\net5.0\GameTop.csproj.AssemblyReference.cache
+C:\Rep\consolecore\GameTop\obj\Debug\net5.0\GameTop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rep\consolecore\GameTop\obj\Debug\net5.0\GameTop.AssemblyInfoInputs.cache
+C:\Rep\consolecore\GameTop\obj\Debug\net5.0\GameTop.AssemblyInfo.cs
+C:\Rep\consolecore\GameTop\obj\Debug\net5.0\GameTop.csproj.CoreCompileInputs.cache
+C:\Rep\consolecore\GameTop\obj\Debug\net5.0\GameTop.dll
+C:\Rep\consolecore\GameTop\obj\Debug\net5.0\ref\GameTop.dll
+C:\Rep\consolecore\GameTop\obj\Debug\net5.0\GameTop.pdb
+C:\Rep\consolecore\GameTop\obj\Debug\net5.0\GameTop.genruntimeconfig.cache
