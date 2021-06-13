@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "GameTop.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/GameTop.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameTop.Interface.dll": {}
+        }
+      },
+      "GameTop.Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "GameTop.Interface": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GameTop.Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameTop.Lib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "GameTop.Interface/1.0.0": {
+      "type": "project",
+      "path": "../GameTop.Interface/GameTop.Interface.csproj",
+      "msbuildProject": "../GameTop.Interface/GameTop.Interface.csproj"
+    },
+    "GameTop.Lib/1.0.0": {
+      "type": "project",
+      "path": "../GameTop.Lib/GameTop.Lib.csproj",
+      "msbuildProject": "../GameTop.Lib/GameTop.Lib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "GameTop.Interface >= 1.0.0",
+      "GameTop.Lib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\vini\\.nuget\\packages\\": {},
@@ -41,7 +79,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Rep\\consolecore\\GameTop.Interface\\GameTop.Interface.csproj": {
+              "projectPath": "C:\\Rep\\consolecore\\GameTop.Interface\\GameTop.Interface.csproj"
+            },
+            "C:\\Rep\\consolecore\\GameTop.Lib\\GameTop.Lib.csproj": {
+              "projectPath": "C:\\Rep\\consolecore\\GameTop.Lib\\GameTop.Lib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

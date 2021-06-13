@@ -14,3 +14,8 @@ C:\Rep\consolecore\GameTop\obj\Debug\net5.0\GameTop.dll
 C:\Rep\consolecore\GameTop\obj\Debug\net5.0\ref\GameTop.dll
 C:\Rep\consolecore\GameTop\obj\Debug\net5.0\GameTop.pdb
 C:\Rep\consolecore\GameTop\obj\Debug\net5.0\GameTop.genruntimeconfig.cache
+C:\Rep\consolecore\GameTop\bin\Debug\net5.0\GameTop.Interface.dll
+C:\Rep\consolecore\GameTop\bin\Debug\net5.0\GameTop.Lib.dll
+C:\Rep\consolecore\GameTop\bin\Debug\net5.0\GameTop.Lib.pdb
+C:\Rep\consolecore\GameTop\bin\Debug\net5.0\GameTop.Interface.pdb
+C:\Rep\consolecore\GameTop\obj\Debug\net5.0\GameTop.csproj.CopyComplete

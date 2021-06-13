@@ -4,17 +4,27 @@ namespace GameTop
 {
      public class JogoFODA
     {
-        private readonly Jogador _jogador;
+        private readonly iJogador _jogadorA;
+        private readonly iJogador _jogadorB;
 
-        public JogoFODA(Jogador nome)
+
+        public JogoFODA(iJogador jogadorA, iJogador jogadorB)
         {
-            _jogador = nome;
+            _jogadorA = jogadorA;
+            _jogadorB = jogadorB;
+
         }
         public void IniciarJogo()
         {
-            _jogador.Corre();
-            _jogador.Chuta();
-            _jogador.Passe();
+            Console.Write(_jogadorA.Corre());
+            Console.Write(_jogadorA.Chuta());
+            Console.Write(_jogadorA.Passa());
+
+            Console.Write("\n PROXIMO JOGADOR \n\n");   
+
+            Console.Write(_jogadorB.Corre());
+            Console.Write(_jogadorB.Chuta());
+            Console.Write(_jogadorB.Passa());
 
         }
      }
